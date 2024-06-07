@@ -1,0 +1,76 @@
+body{
+
+  background-color: #222831;
+  color: white;
+}
+
+.leaflet-container {
+  height: 200px;
+  width: calc(100% - 20px);
+  margin-left: auto;
+  margin-right: auto;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+button{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: auto;
+    width: calc(100% - 20px);
+    background-color: black;
+    color: white;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: none;
+}
+.landing{
+  display: flex;
+  color: white;
+  height: 100vh;
+  background-image: url('https://images4.alphacoders.com/758/75886.jpg');
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+
+}
+.containerr{
+    backdrop-filter: blur(19px); /* Adjust blur strength as needed */
+    border-radius: 10px;
+    padding: 20px;
+    width:800px;
+  
+  
+  }
+
+
+.containerr img{
+  width: 350px;
+  margin-left: auto;
+}
+.containerr{
+  font-size: 25px;
+}
+.navbarr{
+  height: 80px;
+  background-color: #EEEEEE;
+}
+.navbarr img{
+  height: 80px;
+}
+.map{
+  margin: 40px;
+  width: 90%;
+  height: 400px;
+}
+.maps{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
